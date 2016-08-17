@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf8">
+
+        <title>Graph Shortest Path Finding</title>
+
+	<link href="ceditor_files/css.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="ceditor_files/styles.css">
+        <link rel="stylesheet" type="text/css" href="ceditor_files/dijkstra.css">
+        <link rel="stylesheet" href="ceditor_files/rappid.css">
+
+    </head>
+    <body>
+
+    <script src="ceditor_files/ga.js" async="" type="text/javascript"></script><script>
+      SVGElement.prototype.getTransformToElement = SVGElement.prototype.getTransformToElement || function(toElement) {
+          return toElement.getScreenCTM().inverse().multiply(this.getScreenCTM());
+      };
+    </script>
+
+
+
+
+<main class="content layout_sidebar">
+
+
+
+
+  <section class="demos-container">
+
+    <article>
+      <h2>Dijkstra's shortest path algorithm</h2>
+      <p>Click a node and hover over another one to see the shortest path between them.</p>
+    </article>
+
+    <div class="example shorter-path-finder">
+        <div class="options">
+          <label>Directed graph<input id="opt-directed" type="checkbox"></label>
+          <label>Edit mode<input id="opt-edit" type="checkbox">
+            <p id="edit-mode-help">
+              Double-click a blank paper area to create new nodes.
+              Drag the text of nodes to create new edges.
+            </p>
+          </label>
+        </div>
+        <div class="options">
+          <label>title</label><input id="concept-title" type="text"/>
+        </div>
+        <pre id="path"></pre>
+        <div id="paper" class="paper"></div>
+        <div id="out-text"><textarea id="out-text-area" rows="20" cols="150" > </textarea></div>
+    </div><!--end example-->
+
+    <script src="ceditor_files/jquery.js"></script>
+    <script src="ceditor_files/lodash.js"></script>
+    <script src="ceditor_files/backbone-min.js"></script>
+    <script src="ceditor_files/rappid.js"></script>
+    <script src="ceditor_files/dijkstra.js"></script>
+    <script src="ceditor_files/main.js"></script>
+
+
+
+
+  </section>
+</main>
+
+
+
+
+</body></html>
