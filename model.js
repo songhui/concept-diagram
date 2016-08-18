@@ -5,7 +5,7 @@ var model = {
     },
     "n12": {
         "title": " low cost",
-        "loc": "809@44"
+        "loc": "894@57"
     },
     "n17": {
         "title": " cloud trend",
@@ -44,24 +44,24 @@ var model = {
         "loc": "604@243"
     },
     "n126": {
-        "title": " direct code modification",
-        "loc": "419@292"
+        "title": " postpone upgrade",
+        "loc": "247@398"
     },
     "n131": {
         "title": " direct data manipulation",
-        "loc": "496@379"
+        "loc": "496@424"
     },
     "n136": {
         "title": " lightweight development",
-        "loc": "570@335"
+        "loc": "593@359"
     },
     "n141": {
         "title": " consultant development",
         "loc": "871@312"
     },
     "n146": {
-        "title": " joint-test",
-        "loc": "741@320"
+        "title": " joint-testing",
+        "loc": "736@346"
     },
     "n151": {
         "title": " provider-side testing",
@@ -69,7 +69,7 @@ var model = {
     },
     "n156": {
         "title": " postpone upgrade",
-        "loc": "436@465"
+        "loc": "415@513"
     },
     "n161": {
         "title": " reuse and partner app",
@@ -77,15 +77,79 @@ var model = {
     },
     "n166": {
         "title": " code policing",
-        "loc": "1142@418"
+        "loc": "1232@406"
     },
     "n171": {
         "title": " minor customisation",
         "loc": "665@500"
     },
     "n180": {
+        "title": " ground rules and boudaries",
+        "loc": "960@706"
+    },
+    "n128": {
+        "title": " direct code access",
+        "loc": "279@612"
+    },
+    "n133": {
+        "title": " direct database access",
+        "loc": "186@718"
+    },
+    "n138": {
+        "title": " reuse support",
+        "loc": "741@615"
+    },
+    "n143": {
+        "title": " DSL",
+        "loc": "719@723"
+    },
+    "n148": {
+        "title": " automatic testing",
+        "loc": "1009@546"
+    },
+    "n153": {
+        "title": " develop for one customer",
+        "loc": "439@323"
+    },
+    "n158": {
+        "title": " version master",
+        "loc": "1229@504"
+    },
+    "n163": {
+        "title": " source code management",
+        "loc": "861@824"
+    },
+    "n168": {
+        "title": " development environment",
+        "loc": "664@886"
+    },
+    "n173": {
+        "title": " agile testing environment",
+        "loc": "957@946"
+    },
+    "n178": {
+        "title": " preview environment",
+        "loc": "1166@862"
+    },
+    "n183": {
+        "title": " agile partner",
+        "loc": "782@49"
+    },
+    "n188": {
+        "title": " dashboard for all tenants",
+        "loc": "1244@950"
+    },
+    "n217": {
+        "title": " close relationship",
+        "loc": "636@58"
+    },
+    "n342": {
+        "title": " continuos upgrade",
+        "loc": "1381@563"
+    },
+    "n347": {
         "title": " ",
-        "loc": "1000@490"
+        "loc": "1033@69"
     }
 }
 var m = {
@@ -108,20 +172,65 @@ var m = {
         "n17",
         "n46"
     ],
+    "n126": [
+        "n12"
+    ],
+    "n153": [
+        "n7",
+        "n183"
+    ],
+    "n136": [
+        "n183",
+        "n12"
+    ],
+    "n146": [
+        "n217"
+    ],
+    "n131": [
+        "n12",
+        "n121"
+    ],
+    "n171": [
+        "n183",
+        "n12"
+    ],
+    "n141": [
+        "n12",
+        "n183"
+    ],
+    "n161": [
+        "n12"
+    ],
+    "n148": [
+        "n12",
+        "n51",
+        "n151"
+    ],
+    "n166": [
+        "n51"
+    ],
+    "n151": [
+        "n51"
+    ],
     "n7": [],
-    "n12": [],
     "n17": [],
     "n88": [],
+    "n12": [],
     "n121": [],
-    "n126": [],
-    "n131": [],
-    "n136": [],
-    "n141": [],
-    "n146": [],
-    "n151": [],
     "n156": [],
-    "n161": [],
-    "n166": [],
-    "n171": [],
-    "n180": []
+    "n180": [],
+    "n128": [],
+    "n133": [],
+    "n138": [],
+    "n143": [],
+    "n158": [],
+    "n163": [],
+    "n168": [],
+    "n173": [],
+    "n178": [],
+    "n183": [],
+    "n188": [],
+    "n217": [],
+    "n342": [],
+    "n347": []
 }
