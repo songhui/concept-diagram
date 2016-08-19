@@ -37,6 +37,7 @@
 
     <div class="example shorter-path-finder">
         <div class="options">
+          <label>Change link type<input id="opt-change-link" type="checkbox"></lable>
           <label>Directed graph<input id="opt-directed" type="checkbox"></label>
           <label>Edit mode<input id="opt-edit" type="checkbox">
             <p id="edit-mode-help">
@@ -50,7 +51,10 @@
         </div>
         <pre id="path"></pre>
         <div id="paper" class="paper"></div>
-        <div id="out-text"><textarea id="out-text-area" rows="20" cols="150" > </textarea></div>
+        <div id="out-text">
+          <button id="button-save" type="button">Save it below</button><br/>
+          <textarea id="out-text-area" rows="20" cols="150" > </textarea>
+        </div>
     </div><!--end example-->
 
     <script src="ceditor_files/jquery.js"></script>
