@@ -1,242 +1,11 @@
 var model = {
-    "n7": {
-        "title": "gap ",
-        "loc": "473@48"
-    },
-    "n12": {
-        "title": " low cost",
-        "loc": "894@57"
-    },
-    "n17": {
-        "title": " cloud trend",
-        "loc": "1259@44"
-    },
-    "n26": {
-        "title": " no cus-pro dependency",
-        "loc": "99@149"
-    },
-    "n31": {
-        "title": " partner fulfill functions",
-        "loc": "616@121"
-    },
-    "n36": {
-        "title": " partner ensure correct usage",
-        "loc": "523@187"
-    },
-    "n41": {
-        "title": " partner as a beta-customer",
-        "loc": "813@122"
-    },
-    "n46": {
-        "title": " provider facing customers",
-        "loc": "1321@120"
-    },
-    "n51": {
-        "title": " partner responsible on quality to providers",
-        "loc": "1213@188"
-    },
-    "n88": {
-        "title": " local host",
-        "loc": "112@63"
-    },
-    "n121": {
-        "title": " cus-par join resp. on quality",
-        "loc": "604@243"
-    },
-    "n126": {
-        "title": " postpone upgrade",
-        "loc": "247@398"
-    },
-    "n131": {
-        "title": " direct data manipulation",
-        "loc": "496@424"
-    },
-    "n136": {
-        "title": " lightweight development",
-        "loc": "593@359"
-    },
-    "n141": {
-        "title": " consultant development",
-        "loc": "871@312"
-    },
-    "n146": {
-        "title": " joint-testing",
-        "loc": "736@346"
-    },
-    "n151": {
-        "title": " provider-side testing",
-        "loc": "1265@295"
-    },
-    "n156": {
-        "title": " postpone upgrade",
-        "loc": "415@513"
-    },
-    "n161": {
-        "title": " reuse and partner app",
-        "loc": "808@411"
-    },
-    "n166": {
-        "title": " code policing",
-        "loc": "1232@406"
-    },
-    "n171": {
-        "title": " minor customisation",
-        "loc": "665@500"
-    },
-    "n180": {
-        "title": " ground rules and boudaries",
-        "loc": "960@706"
-    },
-    "n128": {
-        "title": " direct code access",
-        "loc": "279@612"
-    },
-    "n133": {
-        "title": " direct database access",
-        "loc": "186@718"
-    },
-    "n138": {
-        "title": " reuse support",
-        "loc": "741@615"
-    },
-    "n143": {
-        "title": " DSL",
-        "loc": "719@723"
-    },
-    "n148": {
-        "title": " automatic testing",
-        "loc": "1009@546"
-    },
-    "n153": {
-        "title": " develop for one customer",
-        "loc": "439@323"
-    },
-    "n158": {
-        "title": " version master",
-        "loc": "1229@504"
-    },
-    "n163": {
-        "title": " source code management",
-        "loc": "861@824"
-    },
-    "n168": {
-        "title": " development environment",
-        "loc": "664@886"
-    },
-    "n173": {
-        "title": " agile testing environment",
-        "loc": "957@946"
-    },
-    "n178": {
-        "title": " preview environment",
-        "loc": "1166@862"
-    },
-    "n183": {
-        "title": " agile partner",
-        "loc": "782@49"
-    },
-    "n188": {
-        "title": " dashboard for all tenants",
-        "loc": "1244@950"
-    },
-    "n217": {
-        "title": " close relationship",
-        "loc": "636@58"
-    },
-    "n342": {
-        "title": " continuos upgrade",
-        "loc": "1381@563"
-    },
-    "n347": {
-        "title": " ",
-        "loc": "1033@69"
-    }
+
 }
 var m = {
-    "n31": [
-        "n7"
-    ],
-    "n36": [
-        "n7"
-    ],
-    "n41": [
-        "n7"
-    ],
-    "n46": [
-        "n17"
-    ],
-    "n26": [
-        "n88"
-    ],
-    "n51": [
-        "n17",
-        "n46"
-    ],
-    "n126": [
-        "n12"
-    ],
-    "n153": [
-        "n7",
-        "n183"
-    ],
-    "n136": [
-        "n183",
-        "n12"
-    ],
-    "n146": [
-        "n217"
-    ],
-    "n131": [
-        "n12",
-        "n121"
-    ],
-    "n171": [
-        "n183",
-        "n12"
-    ],
-    "n141": [
-        "n12",
-        "n183"
-    ],
-    "n161": [
-        "n12"
-    ],
-    "n148": [
-        "n12",
-        "n51",
-        "n151"
-    ],
-    "n166": [
-        "n51"
-    ],
-    "n151": [
-        "n51"
-    ],
-    "n7": [],
-    "n17": [],
-    "n88": [],
-    "n12": [],
-    "n183": [],
-    "n217": [],
-    "n121": [],
-    "n156": [],
-    "n180": [],
-    "n128": [],
-    "n133": [],
-    "n138": [],
-    "n143": [],
-    "n158": [],
-    "n163": [],
-    "n168": [],
-    "n173": [],
-    "n178": [],
-    "n188": [],
-    "n342": [],
-    "n347": []
+
 }
 var dlinks = [
-    "n126@n12",
-    "n148@n151"
+
 ]
 
 var allnodes = []
@@ -264,7 +33,13 @@ var attrs = {
     },
     linkDecrease: {
         '.connection': { stroke: '#6a6c8a', 'stroke-width': 1, 'stroke-dasharray': '5.5', 'decreasing': true }
-    }
+    },
+    linkHighlight: {
+        '.connection': { stroke: '#33334e', 'stroke-width': 3 }
+    },
+    linkDeHighlight: {
+        '.connection': { stroke: '#6a6c8a', 'stroke-width': 1 }
+    },
 };
 
 var graph = new joint.dia.Graph;
@@ -308,24 +83,25 @@ function r() {
 }
 
 // Construct nodes and links based on teh adjancy list.
-_.each(m, function(adjs, parent) {
-    loc = model[parent]['loc']
-    console.log(loc)
-    if(loc == undefined){
-      loc = r();
-    }
-    n(parent, loc);
-    _.each(adjs, function(adj) {
-        // Do not create the node if it's already in the graph.
-        if (!graph.getCell(adj)) {
-          var subloc = model[adj]['loc']
-          if(subloc == undefined) subloc = r();
-          n(adj, subloc);
-        }
-        l(parent, adj);
-    });
-});
-
+function load(){
+  _.each(m, function(adjs, parent) {
+      loc = model[parent]['loc']
+      console.log(loc)
+      if(loc == undefined){
+        loc = r();
+      }
+      n(parent, loc);
+      _.each(adjs, function(adj) {
+          // Do not create the node if it's already in the graph.
+          if (!graph.getCell(adj)) {
+            var subloc = model[adj]['loc']
+            if(subloc == undefined) subloc = r();
+            n(adj, subloc);
+          }
+          l(parent, adj);
+      });
+  });
+}
 // When a new link is created via UI (in Edit mode), remove the previous link
 // and create a new one that has the ID constructed as "nodeA,nodeB". The
 // reason we're removing the old link below is that it is not a good idea
@@ -357,15 +133,30 @@ graph.on('change:position', function(elem){
 // Interaction.
 // ------------
 
+function paintLink(element, highlight){
+  console.log("I'm here")
+  console.log(JSON.stringify(element, null, 4))
+  _.each(graph.getLinks(), function(link){
+
+    if(link.get('source').id == element.id){
+      console.log("get a link")
+      if(highlight) link.attr(attrs.linkHighlight)
+      else link.attr(attrs.linkDeHighlight)
+    }
+  });
+}
+
 function saveTitle(selected){
     var id = selected.id
     model[id]['title'] = $('#concept-title').val()
     selected.attr('text/text', model[id]['title'])
+    paintLink(selected, false);
 }
 
 function showTitle(selected){
     $('#concept-title').val(model[selected.id]['title'])
     $('#concept-title').focus()
+    paintLink(selected, true)
 }
 
 // Select source.
@@ -379,6 +170,7 @@ function selectCellView(cellViewModel){
   (selected = cellViewModel).attr(attrs.elementSelected);
   showTitle(selected)
   console.log(selected.id)
+
 }
 
 paper.on('cell:pointerdown', function(cellView) {
@@ -408,12 +200,12 @@ paper.on('link:options', function (evt, cellView, x, y) {
 
 // Hover an element to select a target.
 paper.on('cell:mouseover', function(cellView, evt) {
-    if (editMode || cellView.model.isLink() || cellView.model === selected) return;
-    if (selected) {
-        var path = graph.shortestPath(selected, cellView.model, { directed: directed });
-        showPath(path);
-        cellView.model.attr(attrs.elementHighlighted);
-    }
+    // if (editMode || cellView.model.isLink() || cellView.model === selected) return;
+    // if (selected) {
+    //     var path = graph.shortestPath(selected, cellView.model, { directed: directed });
+    //     showPath(path);
+    //     cellView.model.attr(attrs.elementHighlighted);
+    // }
 });
 
 // Deselect target.
@@ -484,12 +276,18 @@ $('#opt-change-link').on('change', function(evt){
 });
 
 $('#button-save').click(function(evt){
+    outjson = {"model":model, "m":saveLinks(), "dlinks":saveDLinks()}
 
-    var outtext = "var model = " + JSON.stringify(model, null, 4);
-    outtext = outtext + "\n" + "var m = " + JSON.stringify(saveLinks(), null, 4)
-    outtext = outtext + "\n" + "var dlinks = " + JSON.stringify(saveDLinks(), null, 4)
-    $('#out-text-area').val(outtext)
-          //$('#out-text-area').val()
+    $('#out-text-area').val(JSON.stringify(outjson, null, 4))
+});
+
+$('#button-load').click(function(evt){
+    inmodel = JSON.parse($('#out-text-area').val())
+    model = inmodel.model
+    m = inmodel.m
+    dlinks = inmodel.dlinks
+    load()
+    $('#out-text-area').val('')
 });
 
 
