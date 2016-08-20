@@ -182,19 +182,19 @@ paper.on('cell:pointerdown', function(cellView) {
 });
 
 paper.on('link:options', function (evt, cellView, x, y) {
-  console.log("something");
-  if ($('#opt-change-link').is(':checked')){
-      console.log(cellView.model.attr('.connection/decreasing'))
-      if(cellView.model.attr('.connection/decreasing') == false){
-        cellView.model.removeAttr('.connection')
-        cellView.model.attr(attrs.linkDecrease)
-      }
-      else if(cellView.model.attr('.connection/decreasing') == true){
-        console.log("i'm true")
-        cellView.model.removeAttr('.connection')
-        cellView.model.attr(attrs.linkDefault)
-      }
-  }
+    console.log("something");
+
+    console.log(cellView.model.attr('.connection/decreasing'))
+    if(cellView.model.attr('.connection/decreasing') == false){
+      cellView.model.removeAttr('.connection')
+      cellView.model.attr(attrs.linkDecrease)
+    }
+    else if(cellView.model.attr('.connection/decreasing') == true){
+      console.log("i'm true")
+      cellView.model.removeAttr('.connection')
+      cellView.model.attr(attrs.linkDefault)
+    }
+
 });
 
 
@@ -270,10 +270,7 @@ $('#opt-edit').on('change', function(evt) {
     });
 });
 
-var changeLinkMode;
-$('#opt-change-link').on('change', function(evt){
-    changeLinkMode = $(evt.target).is(':checked');
-});
+
 
 $('#button-save').click(function(evt){
     outjson = {"model":model, "m":saveLinks(), "dlinks":saveDLinks()}
