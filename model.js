@@ -2,59 +2,59 @@
     "model": {
         "n7": {
             "title": "gap ",
-            "loc": "573@58"
+            "loc": "508@10"
         },
         "n12": {
             "title": " low cost",
-            "loc": "1276@55"
+            "loc": "1082@4"
         },
         "n17": {
             "title": " cloud trend",
-            "loc": "1130@44"
+            "loc": "1312@41"
         },
         "n26": {
             "title": " no cus-pro dependency",
-            "loc": "99@149"
+            "loc": "67@195"
         },
         "n31": {
-            "title": " partner fulfill functions",
-            "loc": "614@136"
+            "title": " par. fulfill functions",
+            "loc": "467@156"
         },
         "n36": {
-            "title": " partner ensure correct usage",
-            "loc": "523@187"
+            "title": "par. ensure correct usage",
+            "loc": "671@183"
         },
         "n41": {
             "title": " partner as a beta-customer",
-            "loc": "813@122"
+            "loc": "133@583"
         },
         "n46": {
-            "title": " provider facing customers",
-            "loc": "1069@149"
+            "title": " pro. facing cust.",
+            "loc": "1324@155"
         },
         "n51": {
-            "title": " partner responsible on quality to providers",
-            "loc": "1320@246"
+            "title": " par.  quality resp. to pro.",
+            "loc": "902@243"
         },
         "n88": {
             "title": " local host",
-            "loc": "112@63"
+            "loc": "66@51"
         },
         "n121": {
-            "title": " cus-par join resp. on quality",
-            "loc": "604@243"
+            "title": " cus-par join quality resp.",
+            "loc": "560@308"
         },
         "n126": {
             "title": " postpone upgrade",
-            "loc": "247@398"
+            "loc": "418@383"
         },
         "n131": {
             "title": "DB manipulation",
-            "loc": "509@455"
+            "loc": "575@419"
         },
         "n136": {
             "title": " lightweight development",
-            "loc": "863@366"
+            "loc": "814@440"
         },
         "n141": {
             "title": " consultant development",
@@ -62,19 +62,19 @@
         },
         "n146": {
             "title": " joint-testing",
-            "loc": "785@503"
+            "loc": "694@384"
         },
         "n151": {
             "title": " provider-side testing",
-            "loc": "1189@358"
+            "loc": "1204@344"
         },
         "n156": {
             "title": "customer owns code",
-            "loc": "359@150"
+            "loc": "326@152"
         },
         "n161": {
             "title": "partner app",
-            "loc": "690@401"
+            "loc": "836@329"
         },
         "n166": {
             "title": " code policing",
@@ -82,23 +82,23 @@
         },
         "n171": {
             "title": " minor customisation",
-            "loc": "700@619"
+            "loc": "887@651"
         },
         "n180": {
             "title": "constrained scope",
-            "loc": "960@706"
+            "loc": "921@550"
         },
         "n128": {
             "title": "code manipulation",
-            "loc": "501@548"
+            "loc": "497@578"
         },
         "n133": {
             "title": " direct DB access",
-            "loc": "320@759"
+            "loc": "396@690"
         },
         "n138": {
             "title": " reuse support",
-            "loc": "602@598"
+            "loc": "708@566"
         },
         "n143": {
             "title": "Managed DSL",
@@ -106,67 +106,73 @@
         },
         "n148": {
             "title": " automatic testing",
-            "loc": "1006@528"
+            "loc": "1018@532"
         },
         "n153": {
-            "title": " develop for one customer",
-            "loc": "439@323"
+            "title": "for one customer",
+            "loc": "321@283"
         },
         "n158": {
             "title": " version master",
-            "loc": "930@453"
+            "loc": "1225@557"
         },
         "n163": {
             "title": " source code management",
-            "loc": "825@813"
+            "loc": "889@804"
         },
         "n168": {
             "title": " development environment",
-            "loc": "601@901"
+            "loc": "605@823"
         },
         "n173": {
             "title": " on-demand testing environment",
-            "loc": "957@946"
+            "loc": "1148@752"
         },
         "n178": {
             "title": " preview environment",
-            "loc": "1166@862"
+            "loc": "1248@713"
         },
         "n183": {
             "title": " agile partner",
-            "loc": "841@47"
+            "loc": "785@3"
         },
         "n188": {
             "title": " dashboard for all tenants",
-            "loc": "1244@950"
+            "loc": "1164@827"
         },
         "n217": {
             "title": "one product",
-            "loc": "714@54"
+            "loc": "650@40"
         },
         "n342": {
             "title": " continuos upgrade",
-            "loc": "1021@326"
+            "loc": "1104@249"
         },
         "n347": {
             "title": " new functions",
-            "loc": "955@53"
+            "loc": "929@38"
         },
         "n300": {
             "title": " appstore",
-            "loc": "1172@710"
+            "loc": "1038@631"
+        },
+        "n541": {
+            "title": "trouble shooting",
+            "loc": "636@471"
         }
     },
     "m": {
         "n31": [
             "n7",
-            "n31"
+            "n31",
+            "n217"
         ],
         "n36": [
             "n7"
         ],
         "n46": [
-            "n17"
+            "n17",
+            "n217"
         ],
         "n26": [
             "n88",
@@ -176,15 +182,19 @@
             "n17",
             "n46",
             "n7",
-            "n12"
+            "n12",
+            "n183"
         ],
         "n153": [
             "n7",
-            "n183"
+            "n183",
+            "n88"
         ],
         "n136": [
             "n183",
-            "n12"
+            "n12",
+            "n217",
+            "n51"
         ],
         "n131": [
             "n12",
@@ -203,13 +213,13 @@
             "n12",
             "n183",
             "n31",
-            "n156"
+            "n156",
+            "n153"
         ],
         "n148": [
             "n12",
             "n51",
             "n151",
-            "n183",
             "n136"
         ],
         "n166": [
@@ -225,16 +235,18 @@
             "n148",
             "n141",
             "n131",
-            "n217"
+            "n217",
+            "n138"
         ],
         "n133": [
-            "n46",
-            "n131"
+            "n131",
+            "n180"
         ],
         "n342": [
             "n12",
             "n183",
-            "n347"
+            "n347",
+            "n7"
         ],
         "n138": [
             "n161"
@@ -251,27 +263,31 @@
             "n143"
         ],
         "n163": [
-            "n143",
             "n161",
-            "n180"
+            "n180",
+            "n138"
         ],
         "n173": [
             "n148",
             "n146",
-            "n166"
+            "n166",
+            "n158"
         ],
         "n128": [
             "n126",
             "n141",
             "n51",
             "n26",
-            "n88",
-            "n161"
+            "n161",
+            "n136",
+            "n31",
+            "n217"
         ],
         "n126": [
             "n36",
             "n12",
-            "n156"
+            "n156",
+            "n347"
         ],
         "n158": [
             "n342"
@@ -279,37 +295,54 @@
         "n146": [
             "n31"
         ],
+        "n121": [
+            "n31",
+            "n183",
+            "n36"
+        ],
+        "n156": [
+            "n88"
+        ],
         "n188": [
-            "n51"
+            "n541"
+        ],
+        "n541": [
+            "n121"
+        ],
+        "n178": [
+            "n158"
         ],
         "n7": [],
-        "n41": [],
         "n17": [],
         "n88": [],
         "n12": [],
         "n183": [],
         "n217": [],
-        "n121": [],
-        "n156": [],
-        "n178": [],
-        "n347": []
+        "n347": [],
+        "n41": []
     },
     "dlinks": [
+        "n51@n7",
+        "n51@n12",
+        "n171@n161",
         "n161@n183",
-        "n148@n183",
+        "n161@n156",
+        "n148@n136",
+        "n166@n183",
         "n143@n128",
-        "n133@n46",
+        "n143@n217",
         "n342@n12",
+        "n342@n183",
         "n180@n136",
         "n128@n141",
         "n128@n51",
         "n128@n161",
-        "n161@n156",
-        "n166@n183",
-        "n51@n7",
-        "n51@n12",
-        "n342@n183",
-        "n171@n161",
-        "n143@n217"
+        "n161@n153",
+        "n31@n217",
+        "n126@n347",
+        "n136@n51",
+        "n51@n183",
+        "n342@n7",
+        "n133@n180"
     ]
 }
