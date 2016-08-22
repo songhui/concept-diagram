@@ -13,7 +13,7 @@ var allnodes = []
 // Presentational attributes.
 var attrs = {
     elementDefault: {
-        text: { fill: 'red', style: { 'text-transform': 'capitalize' } },
+        text: { fill: 'black', style: { 'text-transform': 'capitalize' } },
         circle: { fill: '#feb663', stroke: 'white' }
     },
     elementSelected: {
@@ -23,7 +23,7 @@ var attrs = {
         circle: { fill: '#31d0c6' }
     },
     linkDefault: {
-        '.connection': { stroke: '#6a6c8a', 'stroke-width': 1, 'decreasing': false }
+        '.connection': { stroke: '#babcba', 'stroke-width': 1, 'decreasing': false }
     },
     linkDefaultDirected: {
         '.marker-target': { d: 'M 6 0 L 0 3 L 6 6 z' }
@@ -32,13 +32,13 @@ var attrs = {
         '.connection': { stroke: '#33334e', 'stroke-width': 3 }
     },
     linkDecrease: {
-        '.connection': { stroke: '#6a6c8a', 'stroke-width': 1, 'stroke-dasharray': '5.5', 'decreasing': true }
+        '.connection': { stroke: '#babcba', 'stroke-width': 1, 'stroke-dasharray': '5.5', 'decreasing': true }
     },
     linkHighlight: {
         '.connection': { stroke: '#33334e', 'stroke-width': 3 }
     },
     linkDeHighlight: {
-        '.connection': { stroke: '#6a6c8a', 'stroke-width': 1 }
+        '.connection': { stroke: '#babcba', 'stroke-width': 1 }
     },
 };
 
@@ -101,6 +101,20 @@ function load(){
           l(parent, adj);
       });
   });
+  drawVerLine(200)
+  drawVerLine(450).attr('.connection', {'stroke-width': 2})
+  drawVerLine(900)
+  drawVerLine(1250)
+}
+
+function drawVerLine(xpos){
+  line = new joint.dia.Link({
+   source: { x: xpos, y: 0 },
+   target: { x: xpos, y: 1200 }
+  })
+  line.attr("decorate", true)
+  graph.addCell(line)
+  return line
 }
 // When a new link is created via UI (in Edit mode), remove the previous link
 // and create a new one that has the ID constructed as "nodeA,nodeB". The
@@ -291,6 +305,8 @@ $('#button-load').click(function(evt){
 function saveLinks(){
   result = {}
   _.each(graph.getLinks(), function(link){
+      if(link.attr("decorate"))
+        return true;
       var source = link.get('source').id;
       var target = link.get('target').id;
       if(result[source]==undefined){
@@ -313,6 +329,8 @@ function saveLinks(){
 function saveDLinks(){
   var result = []
   _.each(graph.getLinks(), function(link){
+    if(link.attr("decorate"))
+      return true;
     if(link.attr('.connection/decreasing')==true){
 
       var source = link.get('source').id;

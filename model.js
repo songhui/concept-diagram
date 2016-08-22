@@ -34,7 +34,7 @@
         },
         "n51": {
             "title": " par.  quality resp. to pro.",
-            "loc": "902@243"
+            "loc": "1174@233"
         },
         "n88": {
             "title": " local host",
@@ -46,15 +46,15 @@
         },
         "n126": {
             "title": " postpone upgrade",
-            "loc": "418@383"
+            "loc": "370@393"
         },
         "n131": {
             "title": "DB manipulation",
-            "loc": "575@419"
+            "loc": "524@432"
         },
         "n136": {
             "title": " lightweight development",
-            "loc": "814@440"
+            "loc": "801@385"
         },
         "n141": {
             "title": " consultant development",
@@ -62,11 +62,11 @@
         },
         "n146": {
             "title": " joint-testing",
-            "loc": "694@384"
+            "loc": "674@380"
         },
         "n151": {
             "title": " provider-side testing",
-            "loc": "1204@344"
+            "loc": "1172@473"
         },
         "n156": {
             "title": "customer owns code",
@@ -74,11 +74,11 @@
         },
         "n161": {
             "title": "partner app",
-            "loc": "836@329"
+            "loc": "945@349"
         },
         "n166": {
             "title": " code policing",
-            "loc": "1228@471"
+            "loc": "1285@442"
         },
         "n171": {
             "title": " minor customisation",
@@ -94,11 +94,11 @@
         },
         "n133": {
             "title": " direct DB access",
-            "loc": "396@690"
+            "loc": "350@680"
         },
         "n138": {
             "title": " reuse support",
-            "loc": "708@566"
+            "loc": "700@559"
         },
         "n143": {
             "title": "Managed DSL",
@@ -114,7 +114,7 @@
         },
         "n158": {
             "title": " version master",
-            "loc": "1225@557"
+            "loc": "1302@550"
         },
         "n163": {
             "title": " source code management",
@@ -126,11 +126,11 @@
         },
         "n173": {
             "title": " on-demand testing environment",
-            "loc": "1148@752"
+            "loc": "1269@710"
         },
         "n178": {
             "title": " preview environment",
-            "loc": "1248@713"
+            "loc": "1374@676"
         },
         "n183": {
             "title": " agile partner",
@@ -138,7 +138,7 @@
         },
         "n188": {
             "title": " dashboard for all tenants",
-            "loc": "1164@827"
+            "loc": "1324@818"
         },
         "n217": {
             "title": "one product",
@@ -146,7 +146,7 @@
         },
         "n342": {
             "title": " continuos upgrade",
-            "loc": "1104@249"
+            "loc": "1329@248"
         },
         "n347": {
             "title": " new functions",
@@ -158,7 +158,7 @@
         },
         "n541": {
             "title": "trouble shooting",
-            "loc": "636@471"
+            "loc": "631@460"
         }
     },
     "m": {
@@ -293,7 +293,8 @@
             "n342"
         ],
         "n146": [
-            "n31"
+            "n31",
+            "n36"
         ],
         "n121": [
             "n31",
@@ -313,36 +314,36 @@
             "n158"
         ],
         "n7": [],
+        "n217": [],
         "n17": [],
         "n88": [],
         "n12": [],
         "n183": [],
-        "n217": [],
         "n347": [],
         "n41": []
     },
     "dlinks": [
+        "n31@n217",
         "n51@n7",
         "n51@n12",
+        "n51@n183",
+        "n136@n51",
         "n171@n161",
         "n161@n183",
         "n161@n156",
+        "n161@n153",
         "n148@n136",
         "n166@n183",
         "n143@n128",
         "n143@n217",
+        "n133@n180",
         "n342@n12",
         "n342@n183",
+        "n342@n7",
         "n180@n136",
         "n128@n141",
         "n128@n51",
         "n128@n161",
-        "n161@n153",
-        "n31@n217",
-        "n126@n347",
-        "n136@n51",
-        "n51@n183",
-        "n342@n7",
-        "n133@n180"
+        "n126@n347"
     ]
 }
