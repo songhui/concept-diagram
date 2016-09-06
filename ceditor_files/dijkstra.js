@@ -23,7 +23,7 @@ var attrs = {
         circle: { fill: '#31d0c6' }
     },
     linkDefault: {
-        '.connection': { stroke: '#babcba', 'stroke-width': 1, 'decreasing': false }
+        '.connection': { stroke: '#dadcba', 'stroke-width': 1, 'decreasing': false }
     },
     linkDefaultDirected: {
         '.marker-target': { d: 'M 6 0 L 0 3 L 6 6 z' }
@@ -32,13 +32,13 @@ var attrs = {
         '.connection': { stroke: '#33334e', 'stroke-width': 3 }
     },
     linkDecrease: {
-        '.connection': { stroke: '#babcba', 'stroke-width': 1, 'stroke-dasharray': '5.5', 'decreasing': true }
+        '.connection': { stroke: '#dadcba', 'stroke-width': 1, 'stroke-dasharray': '5.5', 'decreasing': true }
     },
     linkHighlight: {
         '.connection': { stroke: '#33334e', 'stroke-width': 3 }
     },
     linkDeHighlight: {
-        '.connection': { stroke: '#babcba', 'stroke-width': 1 }
+        '.connection': { stroke: '#dadcba', 'stroke-width': 1 }
     },
 };
 
