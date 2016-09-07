@@ -292,12 +292,16 @@ $('#button-save').click(function(evt){
     $('#out-text-area').val(JSON.stringify(outjson, null, 4))
 });
 
+function loadFromString(smodel){
+  inmodel = JSON.parse($('#out-text-area').val())
+  model = inmodel.model
+  m = inmodel.m
+  dlinks = inmodel.dlinks
+  load()
+}
+
 $('#button-load').click(function(evt){
-    inmodel = JSON.parse($('#out-text-area').val())
-    model = inmodel.model
-    m = inmodel.m
-    dlinks = inmodel.dlinks
-    load()
+    loadFromString($('#out-text-area').val())
     $('#out-text-area').val('')
 });
 
