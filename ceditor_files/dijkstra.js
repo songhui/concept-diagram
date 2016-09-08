@@ -152,9 +152,13 @@ function paintLink(element, highlight){
   console.log(JSON.stringify(element, null, 4))
   _.each(graph.getLinks(), function(link){
 
-    if(link.get('source').id == element.id){
+    if(link.get('source').id == element.id || link.get('target').id == element.id){
       console.log("get a link")
-      if(highlight) link.attr(attrs.linkHighlight)
+      if(highlight) {
+        link.attr(attrs.linkHighlight)
+        if(link.get('target').id == element.id)
+          link.attr('.connection/stroke', '#d3d3de')
+      }
       else link.attr(attrs.linkDeHighlight)
     }
   });
