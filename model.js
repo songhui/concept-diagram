@@ -22,7 +22,7 @@
         },
         "n36": {
             "title": "par. ensure correct usage",
-            "loc": "620@198"
+            "loc": "628@188"
         },
         "n41": {
             "title": "quick troubleshooting",
@@ -50,11 +50,11 @@
         },
         "n131": {
             "title": "DB manipulation",
-            "loc": "493@570"
+            "loc": "505@524"
         },
         "n136": {
-            "title": " adhoc development",
-            "loc": "648@433"
+            "title": "ad hoc dev.",
+            "loc": "658@417"
         },
         "n141": {
             "title": " consultant development",
@@ -66,7 +66,7 @@
         },
         "n151": {
             "title": " prov.-involved testing",
-            "loc": "1154@365"
+            "loc": "1175@388"
         },
         "n156": {
             "title": "customer owns code",
@@ -74,23 +74,23 @@
         },
         "n161": {
             "title": "partner app",
-            "loc": "967@359"
+            "loc": "968@381"
         },
         "n166": {
             "title": " code policing",
-            "loc": "1286@457"
+            "loc": "1290@447"
         },
         "n171": {
             "title": " minor customisation",
-            "loc": "799@519"
+            "loc": "781@524"
         },
         "n180": {
             "title": "constrained scope",
-            "loc": "1003@546"
+            "loc": "1003@554"
         },
         "n128": {
             "title": "code manipulation",
-            "loc": "656@552"
+            "loc": "515@624"
         },
         "n133": {
             "title": " direct DB access",
@@ -98,11 +98,11 @@
         },
         "n138": {
             "title": " reuse",
-            "loc": "914@496"
+            "loc": "912@480"
         },
         "n143": {
             "title": "Managed DSL",
-            "loc": "601@639"
+            "loc": "717@623"
         },
         "n148": {
             "title": " automatic testing",
@@ -117,12 +117,12 @@
             "loc": "1332@556"
         },
         "n163": {
-            "title": " source code management",
-            "loc": "927@698"
+            "title": "code management",
+            "loc": "986@708"
         },
         "n168": {
             "title": "IDE",
-            "loc": "620@725"
+            "loc": "595@711"
         },
         "n173": {
             "title": " on-demand testing environment",
@@ -154,15 +154,15 @@
         },
         "n300": {
             "title": " appstore",
-            "loc": "1108@656"
+            "loc": "1162@697"
         },
         "n541": {
             "title": "cheap upgrade",
-            "loc": "758@326"
+            "loc": "771@329"
         },
         "n565": {
             "title": " auto checking",
-            "loc": "836@630"
+            "loc": "862@731"
         },
         "n593": {
             "title": " consistent style",
@@ -174,19 +174,19 @@
         },
         "n691": {
             "title": "par. autonomy",
-            "loc": "793@207"
+            "loc": "784@219"
         },
         "n820": {
             "title": " online IDE",
-            "loc": "733@733"
+            "loc": "721@733"
         },
         "n1025": {
             "title": "prov. monitoring",
             "loc": "1261@311"
         },
         "n840": {
-            "title": " non-intrusive manipulation",
-            "loc": "1018@627"
+            "title": "services and add-ins",
+            "loc": "1071@616"
         }
     },
     "m": {
@@ -213,13 +213,15 @@
             "n347"
         ],
         "n136": [
-            "n183",
             "n12",
             "n51",
             "n593",
             "n638",
             "n146",
-            "n121"
+            "n121",
+            "n691",
+            "n541",
+            "n136"
         ],
         "n131": [
             "n691",
@@ -261,7 +263,7 @@
         ],
         "n166": [
             "n51",
-            "n183",
+            "n691",
             "n151"
         ],
         "n151": [
@@ -271,7 +273,6 @@
             "n161"
         ],
         "n143": [
-            "n128",
             "n171",
             "n148",
             "n141",
@@ -302,15 +303,15 @@
             "n161",
             "n166",
             "n151",
-            "n141",
-            "n138"
+            "n840"
         ],
         "n180": [
             "n51",
             "n136",
             "n691",
             "n151",
-            "n593"
+            "n593",
+            "n1025"
         ],
         "n168": [
             "n143",
@@ -418,14 +419,17 @@
         ],
         "n1025": [
             "n46",
-            "n41"
+            "n41",
+            "n691",
+            "n12"
         ],
         "n840": [
             "n141",
             "n161",
-            "n128",
             "n151",
-            "n171"
+            "n171",
+            "n180",
+            "n136"
         ],
         "n7": [],
         "n217": [],
@@ -445,6 +449,7 @@
         "n136@n51",
         "n136@n593",
         "n136@n121",
+        "n136@n541",
         "n171@n161",
         "n141@n161",
         "n141@n151",
@@ -458,10 +463,8 @@
         "n161@n347",
         "n148@n136",
         "n148@n638",
-        "n166@n183",
         "n151@n136",
         "n151@n691",
-        "n143@n128",
         "n143@n136",
         "n143@n593",
         "n133@n180",
@@ -471,7 +474,6 @@
         "n342@n31",
         "n138@n638",
         "n138@n136",
-        "n300@n141",
         "n180@n136",
         "n180@n691",
         "n128@n141",
@@ -480,6 +482,11 @@
         "n128@n41",
         "n691@n51",
         "n156@n347",
-        "n840@n128"
+        "n840@n141",
+        "n840@n171",
+        "n166@n691",
+        "n840@n136",
+        "n1025@n691",
+        "n1025@n12"
     ]
 }
